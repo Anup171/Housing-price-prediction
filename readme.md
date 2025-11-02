@@ -51,11 +51,10 @@ Luxury: $520,000
 
 ## Project Structure
 
- California-Housing-Price-Prediction
-│
-├── notebook.ipynb # Jupyter Notebook containing full workflow
-├── README.md # Documentation file
-└── requirements.txt # Dependencies
+ California-Housing-Price-Prediction<br>
+--> notebook.ipynb # Jupyter Notebook Workflow<br>
+--> README.md # Documentation file<br>
+--> requirements.txt # Dependencies<br>
 
 ---
 
@@ -67,54 +66,44 @@ Clone this repository and install dependencies.
 git clone https://github.com/your-username/california-housing-price-prediction.git
 cd california-housing-price-prediction
 pip install -r requirements.txt
-🚀 Usage
-Launch the notebook:
+```
 
-bash
-Copy code
-jupyter notebook notebook.ipynb
-Run all cells sequentially to:
+## Technologies Used
 
-Preprocess data
+- **Python**
+- **Pandas**, **NumPy** — Data manipulation and processing  
+- **Scikit-learn** — Machine learning models and evaluation  
+- **Matplotlib**, **Seaborn** — Visualization  
+- **Jupyter Notebook** — Interactive analysis  
 
-Train models
+---
 
-Evaluate performance
+## Evaluation Metrics
 
-Generate insights and predictions
-
-Technologies Used
-Python
-
-Pandas, NumPy — Data manipulation and processing
-
-Scikit-learn — Machine learning models and evaluation
-
-Matplotlib, Seaborn — Visualization
-
-Jupyter Notebook — Interactive analysis
-
-Evaluation Metrics
-Root Mean Squared Error (RMSE) for model performance
-
-R² score for explained variance
+- **Root Mean Squared Error (RMSE):** Measures prediction error magnitude  
+- **R² Score:** Indicates how much variance is explained by the model  
 
 These metrics help compare and select the most effective regression model.
 
-Results & Insights
-Median Income and Room Count are the strongest predictors of housing value.
+---
 
-The Random Forest model provided the lowest RMSE and best generalization.
+## Results & Insights
 
-High-value zones were concentrated in regions with above-average income and newer houses.
+- **Median Income** and **Average Room Count** are the strongest predictors of housing value.  
+- The **Random Forest** model achieved the lowest RMSE and best generalization.  
+- **High-value areas** were concentrated where income levels and house conditions were above average.  
 
-Future Enhancements
-Integrate geospatial heatmaps for visualizing high-value clusters.
+---
 
-Extend model with deep learning for non-linear relationships.
+## Future Enhancements
 
-Deploy model as a real-time API or Streamlit dashboard.
+- Integrate **geospatial heatmaps** to visualize high-value regions.  
+- Extend the project with **deep learning** for non-linear patterns.  
+- Deploy the model as a **real-time API** or **Streamlit dashboard** for interactive predictions.  
 
-Author
-Anup S. Bandarkar
-B.Tech CSE (Data Science) @ BMS College of Engineering
+---
+
+## Author
+
+**Anup S. Bandarkar**  
+_B.Tech CSE (Data Science) @ BMS College of Engineering_  
